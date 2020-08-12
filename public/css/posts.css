@@ -1,0 +1,57 @@
+body {
+  font-family: "Lora", sans-serif;
+  background: #c0c0c0d3 !important;
+}
+
+.meta {
+  padding: 10px;
+  position: relative;
+  word-spacing: 2px;
+}
+
+.meta .folder a {
+  color: black !important;
+}
+
+.meta .folder {
+  padding-right: 8px;
+}
+
+.meta .comment {
+  padding-right: 8px;
+}
+
+.meta .calender {
+  margin-left: -9px;
+  padding-right: 8px;
+}
+
+.profile-picture img {
+  height: 200px;
+  object-fit: cover;
+  width: 100% !important;
+}
+
+.article-details .text-caption a {
+  color: black !important;
+  font-family: "Lora", sans-serif;
+}
+
+.article-details .text-caption a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.read-more {
+  color: #00643c !important;
+}
+
+#posts .card {
+  transition: all 0.2s ease-in-out;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#posts .card:hover {
+  transform: scale(0.98);
+}
